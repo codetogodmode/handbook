@@ -6,14 +6,26 @@ Veškerý kód žije v naší GitHub organizaci **codetogodmode**. Tady je všec
 
 Organizace má několik typů repozitářů:
 
+- **sandbox-{jméno}-*** — tvůj osobní sandbox pro experimenty a PoC (vytvoříš si sám přes bota)
+- **capstone-{jméno}-*** — tvůj hlavní projekt (od Layer 3 dál, vytváří Martin)
+- **challenge-{jméno}-*** — gate challenge zadání (vytváří Martin)
 - **shared-*** — společné projekty, na kterých pracujeme všichni (Layer 1-2)
-- **capstone-*** — tvůj osobní projekt (od Layer 3 dál)
 - **demo-*** — ukázkový kód ze sessions
 - **template-*** — startovní šablony, ze kterých se tvoří nové projekty
 - **handbook** — pravidla, dokumenty, návody (tohle čteš právě teď)
 - **study-book** — učební materiály ze sessions
 
-**Důležité:** Nevytvářej si repos sám. Když potřebuješ nový repo (PoC, experiment, cokoliv), řekni Martinovi — vytvoří ho z template v organizaci. Tím máš rovnou CI, .gitignore, PR template a správná nastavení.
+## Jak vytvořit nové repo
+
+### Sandbox (sám, kdykoliv)
+Pro experimenty, PoC, cvičení — na Discord serveru v kanálu **#repos** napiš:
+```
+/new-repo název: muj-pokus template: console
+```
+Bot vytvoří `sandbox-{tvoje-jméno}-muj-pokus` v organizaci. Na výběr máš template `console`, `webapi`, nebo `empty` (prázdné repo). Limit: 25 sandbox repos.
+
+### Capstone / Challenge / Shared (Martin)
+Hlavní projekty a gate challenges vytváří Martin — řekni mu co potřebuješ a on to založí se správným nastavením.
 
 ## Jak začít s repem
 
@@ -150,4 +162,4 @@ git checkout main       # přepni se na main
 
 ## Proof of Concept / Experimenty
 
-Chceš si něco vyzkoušet mimo hlavní projekt? Řekni Martinovi — vytvoří ti repo z template. Klidně to může být `capstone-tereza-poc-enneagram-parser` nebo `capstone-petr-experiment-api`. Lepší mít 5 malých repů než jeden obrovský s chaosem.
+Chceš si něco vyzkoušet? Vytvoř si sandbox repo přes `/new-repo` v #repos na Discordu — nemusíš čekat na Martina. Klidně to může být `sandbox-tereza-pokus-s-api` nebo `sandbox-petr-kalkulacka-v2`. Lepší mít 5 malých repů než jeden obrovský s chaosem.
