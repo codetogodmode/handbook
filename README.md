@@ -6,4 +6,5 @@ Vše co potřebuješ vědět o tom, jak fungujeme.
 - [AI Policy](ai-policy.md)
 - [Definition of Done](definition-of-done.md)
 - [Roadmap](roadmap.md)
+- [AI Tools Guide](ai-tools-guide.md)
 - [Setup Guide](setup-guide.md)
