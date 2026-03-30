@@ -7,5 +7,3 @@ Vše co potřebuješ vědět o tom, jak fungujeme.
 - [Definition of Done](definition-of-done.md)
 - [Roadmap](roadmap.md)
 - [Setup Guide](setup-guide.md)
-
-<!-- wins test -->
