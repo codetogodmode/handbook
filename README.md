@@ -8,3 +8,4 @@ Vše co potřebuješ vědět o tom, jak fungujeme.
 - [Roadmap](roadmap.md)
 - [Setup Guide](setup-guide.md)
 
+<!-- wins test -->
