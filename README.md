@@ -7,4 +7,5 @@ Vše co potřebuješ vědět o tom, jak fungujeme.
 - [Definition of Done](definition-of-done.md)
 - [Roadmap](roadmap.md)
 - [AI Tools Guide](ai-tools-guide.md)
+- [Secrets Guide](secrets-guide.md)
 - [Setup Guide](setup-guide.md)

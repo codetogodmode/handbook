@@ -9,6 +9,7 @@
 5. **Autor umí vysvětlit call flow** — od vstupu po výstup
 6. **AI disclosure** — pokud AI pomáhala, je to přiznané v PR
 7. **Code review proběhl** — schválení od Martina nebo peer review
+8. **Žádné secrets v kódu** — žádné API klíče, tokeny ani hesla natvrdo v kódu. Použij `.gitignore` a environment variables.
 
 ## Proč to děláme
 

@@ -84,6 +84,8 @@ Keep answers concise and practical. Include short code examples where helpful.
 - **ChatGPT:** Settings → Personalization → Custom Instructions → "How would you like ChatGPT to respond?" → vlož sem
 - **Claude:** Na začátek první zprávy v konverzaci, nebo vytvoř Project a vlož do Project Instructions
 
+> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
+
 ### Příklady — co se ptát a co ne
 
 **Dobrý prompt (HELPER):**
@@ -136,6 +138,8 @@ Always respond in Czech. Use English for technical terms.
 Be specific, provide working code, explain every non-obvious line.
 ```
 
+> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
+
 ### Workflow
 
 1. Máš issue (task v GitHubu)
@@ -181,6 +185,8 @@ V rootu tvého projektu vytvoř soubor `CLAUDE.md`:
 
 Claude Code tento soubor přečte automaticky a bude se řídit pravidly.
 
+> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
+
 ### Jak pracovat s Claude Code
 
 1. Otevři terminál v projektu
@@ -209,3 +215,5 @@ I v God Mode platí:
 - Vždy review, vždy testy, vždy rollback path
 - Nikdy neodevzdáš kód, kterému nerozumíš
 - AI disclosure v každém PR
+
+> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
