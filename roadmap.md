@@ -3,7 +3,7 @@
 ## Přehled
 
 ```
-Layer 1          Layer 2          Layer 3          Layer 4a         Layer 4b
+Layer 1          Layer 2          Layer 3          Layer 4          Layer 5
 Console & Git    OOP & Quality    Data & API       Frontend         Ship It
 (3 týdny)        (3 týdny)        (3 týdny)        (4 týdny)        (2 týdny)
     |                |                |                |                |
@@ -44,7 +44,7 @@ Backend, databáze, architektura. Capstone projekty se rozjíždí.
 - **Výstup:** Backend API s databází
 - **AI režim:** HELPER → drilling na PAIR
 
-## Layer 4a — Frontend & Full Stack (týdny 10-13)
+## Layer 4 — Frontend & Full Stack (týdny 10-13)
 
 UI pro tvou appku.
 
@@ -54,7 +54,7 @@ UI pro tvou appku.
 - **Výstup:** Fungující full-stack appka
 - **AI režim:** PAIR → drilling na BUILDER
 
-## Layer 4b — Ship It (týdny 14-15)
+## Layer 5 — Ship It (týdny 14-15)
 
 Tvoje appka živá na internetu.
 
