@@ -3,15 +3,27 @@
 ## Přehled
 
 ```
-Layer 1          Layer 2          Layer 3          Layer 4          Layer 5
-Console & Git    OOP & Quality    Data & API       Frontend         Ship It
-(3 týdny)        (3 týdny)        (3 týdny)        (4 týdny)        (2 týdny)
-    |                |                |                |                |
-    v                v                v                v                v
-  EXPLAIN -------> HELPER -------> PAIR ----------> BUILDER ------> GOD MODE
+Session 0        Layer 1          Layer 2          Layer 3          Layer 4          Layer 5
+Intro            Console & Git    OOP & Quality    Data & API       Frontend         Ship It
+(1 session)      (3 týdny)        (3 týdny)        (3 týdny)        (4 týdny)        (2 týdny)
+    |                |                |                |                |                |
+    v                v                v                v                v                v
+  WATCH -------> EXPLAIN -------> HELPER -------> PAIR ----------> BUILDER ------> GOD MODE
 ```
 
-Celkem: ~15 týdnů (3.5-4 měsíce) při 2 sessions/týden.
+Celkem: ~15 týdnů + 1 intro session (~4 měsíce) při 2 sessions/týden.
+
+## Session 0 — Intro (před Layer 1)
+
+Úvodní session bez kódování. Cílem je, aby se všichni seznámili s programem, s Martinem a navzájem.
+
+- Představení CTGM — co vás čeká, jak program funguje, co je cílem
+- Seznámení s členy — co vás zajímá, proč jste tu, co chcete umět
+- Přehled pravidel, AI policy, Definition of Done
+- Live demo: Martin ukazuje, memberové sledují (VS Code, terminál, Git, GitHub)
+- Kontrola prerekvizit — společná verifikace, že všichni mají nainstalováno
+- **Výstup:** Všichni mají funkční prostředí, přístup do organizace, jasnou představu o programu
+- **AI režim:** WATCH (jen sledujete)
 
 ## Layer 1 — Console & Git (týdny 1-3)
 

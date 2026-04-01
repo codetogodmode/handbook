@@ -26,6 +26,10 @@ Každý má odemčenou určitou úroveň AI asistence. Používej jen to, co má
 
 Nemusí být velký. Může to být opravený bug, nový test, kus refactoru, nebo i jen kvalitní otázka v #help. Ale něco musí existovat — bez pohybu se neučíš.
 
+## Nahrávání sessions
+
+Sessions jsou nahrávány pro tvorbu učebních materiálů. Kdo se připojí na voice call, souhlasí s nahráváním.
+
 ## Co od tebe čekáme
 
 - Aktivní účast na sessions (2× týdně)

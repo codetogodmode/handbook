@@ -35,12 +35,12 @@ git --version
 - [Definition of Done](definition-of-done.md) — kdy je úkol hotový
 - [Roadmap](roadmap.md) — co nás čeká
 
-## Krok 5: První session
+## Krok 5: První session (Session 0)
 
-Na první session se potkáme na Discordu v Session Room. Martin ti ukáže:
+První session je Session 0 — intro bez kódování. Potkáme se na Discordu v Session Room. Martin představí program, projdeme pravidla a uvidíte live demo (VS Code, terminál, Git, GitHub). Vy sledujete, ptáte se, kódovat se ještě nebude.
 
-- Jak vytvořit svůj první projekt z template
-- Jak napsat a spustit první program
-- Jak udělat commit a pull request
+Přijď s hotovými prerekvizitami (kroky 1-4). Na Session 0 společně ověříme, že máš všechno nainstalované a funkční.
+
+První kódování přijde na řadu v Session 1 (Layer 1), kde si vytvoříš svůj první projekt, napíšeš první program a uděláš první commit a pull request.
 
 Neboj se ptát. Nikdo tu nezačínal jako expert.
