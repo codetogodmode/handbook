@@ -6,6 +6,7 @@ Veškerý kód žije v naší GitHub organizaci **codetogodmode**. Tady je všec
 
 Organizace má několik typů repozitářů:
 
+- **member-{jméno}** — tvůj hlavní learning repo, projekty ve složkách (src/Calculator/, src/ZooManager/...). Vytváří Martin na začátku akademie.
 - **sandbox-{jméno}-*** — tvůj osobní sandbox pro experimenty a PoC (vytvoříš si sám přes bota)
 - **capstone-{jméno}-*** — tvůj hlavní projekt (od Layer 3 dál, vytváří Martin)
 - **challenge-{jméno}-*** — gate challenge zadání (vytváří Martin)
@@ -24,8 +25,8 @@ Pro experimenty, PoC, cvičení — na Discord serveru v kanálu **#repos** napi
 ```
 Bot vytvoří `sandbox-{tvoje-jméno}-muj-pokus` v organizaci. Na výběr máš template `console`, `webapi`, nebo `empty` (prázdné repo). Limit: 25 sandbox repos.
 
-### Capstone / Challenge / Shared (Martin)
-Hlavní projekty a gate challenges vytváří Martin — řekni mu co potřebuješ a on to založí se správným nastavením.
+### Member / Capstone / Challenge / Shared / Demo (Martin)
+Member repos (`member-{jméno}`) vytváří Martin na začátku akademie -- každý member dostane svůj repo se strukturou pro projekty. Capstone projekty, gate challenges, shared a demo repos taky zakládá Martin -- řekni mu co potřebuješ a on to založí se správným nastavením.
 
 ## Jak začít s repem
 
@@ -135,7 +136,7 @@ Issues jsou úkoly — co je potřeba udělat.
 - **Nepoužívej force push** (`git push --force`) — zničí historii
 - **Necommituj secrets** — API klíče, hesla, tokeny. Viz [Secrets Guide](secrets-guide.md)
 - **Necommituj bez popisu** — `git commit -m "stuff"` je k ničemu
-- **Neigonruj review** — pokud nesouhlasíš s komentářem, diskutuj, neignoruj
+- **Neignoruj review** — pokud nesouhlasíš s komentářem, diskutuj, neignoruj
 - **Nevytvářej repos mimo org** — všechno žije v codetogodmode
 
 ## Když se zasekneš
@@ -162,4 +163,6 @@ git checkout main       # přepni se na main
 
 ## Proof of Concept / Experimenty
 
-Chceš si něco vyzkoušet? Vytvoř si sandbox repo přes `/new-repo` v #repos na Discordu — nemusíš čekat na Martina. Klidně to může být `sandbox-tereza-pokus-s-api` nebo `sandbox-petr-kalkulacka-v2`. Lepší mít 5 malých repů než jeden obrovský s chaosem.
+Chceš si něco vyzkoušet? Vytvoř si sandbox repo přes `/new-repo` v #repos na Discordu -- nemusíš čekat na Martina. Klidně to může být `sandbox-tereza-pokus-s-api` nebo `sandbox-petr-kalkulacka-v2`.
+
+Pro strukturovanou práci (session úkoly, gate challenges) používej svůj member repo (`member-{jméno}`). Pro volné experimenty a PoC si vytvoř sandbox. Lepší mít přehledný member repo + pár malých sandboxů než jeden obrovský repo s chaosem.

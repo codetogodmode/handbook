@@ -8,7 +8,7 @@ Intro            Console & Git    OOP & Quality    Data & API       Frontend    
 (1 session)      (3 týdny)        (3 týdny)        (3 týdny)        (4 týdny)        (2 týdny)
     |                |                |                |                |                |
     v                v                v                v                v                v
-  WATCH -------> EXPLAIN -------> HELPER -------> PAIR ----------> BUILDER ------> GOD MODE
+  (intro)           EXPLAIN -------> HELPER -------> PAIR ----------> BUILDER ------> GOD MODE
 ```
 
 Celkem: ~15 týdnů + 1 intro session (~4 měsíce) při 2 sessions/týden.
@@ -23,7 +23,7 @@ Celkem: ~15 týdnů + 1 intro session (~4 měsíce) při 2 sessions/týden.
 - Live demo: Martin ukazuje, memberové sledují (VS Code, terminál, Git, GitHub)
 - Kontrola prerekvizit — společná verifikace, že všichni mají nainstalováno
 - **Výstup:** Všichni mají funkční prostředí, přístup do organizace, jasnou představu o programu
-- **AI režim:** WATCH (jen sledujete)
+- **AI režim:** Žádný -- intro session bez AI nástrojů
 
 ## Layer 1 — Console & Git (týdny 1-3)
 

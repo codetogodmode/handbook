@@ -129,10 +129,10 @@ Když píšeš do ChatGPT, Claude, Copilotu nebo jakéhokoliv AI nástroje:
 Nahraď skutečné hodnoty placeholdery:
 
 ```
--- Spatne:
+-- Špatně:
 Muj connection string Server=prod.database.net;Password=Heslo123; nefunguje, proč?
 
--- Spravne:
+-- Správně:
 Muj connection string nefunguje, format je Server=<adresa>;Password=<heslo>; — co můžu zkontrolovat?
 ```
 

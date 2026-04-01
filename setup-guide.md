@@ -30,10 +30,13 @@ git --version
 
 ## Krok 4: Přečti si pravidla
 
-- [Pravidla](pravidla.md) — jak fungujeme
-- [AI Policy](ai-policy.md) — jak smíš/nesmíš používat AI
-- [Definition of Done](definition-of-done.md) — kdy je úkol hotový
-- [Roadmap](roadmap.md) — co nás čeká
+- [Pravidla](pravidla.md) -- jak fungujeme
+- [AI Policy](ai-policy.md) -- jak smíš/nesmíš používat AI
+- [AI Tools Guide](ai-tools-guide.md) -- průvodce AI nástroji pro každý režim
+- [GitHub Guide](github-guide.md) -- jak pracujeme s GitHubem
+- [Secrets Guide](secrets-guide.md) -- jak zacházet s hesly, klíči a tokeny
+- [Definition of Done](definition-of-done.md) -- kdy je úkol hotový
+- [Roadmap](roadmap.md) -- co nás čeká
 
 ## Krok 5: První session (Session 0)
 

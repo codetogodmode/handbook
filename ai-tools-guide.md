@@ -6,7 +6,7 @@ Průvodce AI nástroji pro každý režim. Nemusíš si všechno nastavovat hned
 
 | Režim | Nástroj | Setup |
 |-------|---------|-------|
-| EXPLAIN | Discord bot (`!ask`) | Nic — už to máš |
+| EXPLAIN | Discord bot (`!ask`, `!explain`) | Nic -- už to máš |
 | HELPER | ChatGPT / Claude (prohlížeč) | Založit free účet, vložit system prompt |
 | PAIR | ChatGPT / Claude (prohlížeč) | Stejný účet, jiný system prompt |
 | BUILDER | Claude Code (CLI/IDE) | Instalace CLI, CLAUDE.md v projektu |
@@ -34,6 +34,9 @@ Napiš `!ask` a za to svou otázku. Příklady:
 - Psát za tebe kód
 - Řešit za tebe úkoly
 - Pokud bot neví, řekne ti, abys se zeptal Martina
+
+**Jak vznikají materiály v study-booku:**
+Martin používá příkaz `!explain {1-5}` v kanálu #code-explain k tvorbě vysvětlení konceptů a kódu. Výstupy se automaticky ukládají do study-book repozitáře. Tento příkaz nepoužíváš ty -- ale věz, že vysvětlení, která v study-booku najdeš, vznikla tímhle způsobem.
 
 **Setup:** Žádný. Stačí mít Discord a být na serveru.
 

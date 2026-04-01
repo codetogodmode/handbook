@@ -33,7 +33,7 @@ Sessions jsou nahrávány pro tvorbu učebních materiálů. Kdo se připojí na
 ## Co od tebe čekáme
 
 - Aktivní účast na sessions (2× týdně)
-- Pravidelné příspěvky do #til (co ses naučil)
+- Pravidelné příspěvky do #today-i-learned (co ses naučil)
 - Pull requesty s popisem změny
 - Ochotu přijímat i dávat code review
 - Trpělivost — vůči sobě i ostatním
