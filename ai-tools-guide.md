@@ -2,6 +2,10 @@
 
 Průvodce AI nástroji pro každý režim. Nemusíš si všechno nastavovat hned — vždy si přečti jen sekci pro svůj aktuální režim.
 
+Co smíš a nesmíš v každém režimu najdeš v [AI Policy](ai-policy.md). Tady je návod, jaké nástroje použít a jak je nastavit.
+
+> **Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením. Více v [Secrets Guide](secrets-guide.md).
+
 ## Přehled
 
 | Režim | Nástroj | Setup |
@@ -87,7 +91,7 @@ Keep answers concise and practical. Include short code examples where helpful.
 - **ChatGPT:** Settings → Personalization → Custom Instructions → "How would you like ChatGPT to respond?" → vlož sem
 - **Claude:** Na začátek první zprávy v konverzaci, nebo vytvoř Project a vlož do Project Instructions
 
-> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
+
 
 ### Příklady — co se ptát a co ne
 
@@ -141,7 +145,7 @@ Always respond in Czech. Use English for technical terms.
 Be specific, provide working code, explain every non-obvious line.
 ```
 
-> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
+
 
 ### Workflow
 
@@ -188,7 +192,7 @@ V rootu tvého projektu vytvoř soubor `CLAUDE.md`:
 
 Claude Code tento soubor přečte automaticky a bude se řídit pravidly.
 
-> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
+
 
 ### Jak pracovat s Claude Code
 
@@ -214,9 +218,6 @@ Claude Code nebo Codex bez omezení. Agentické workflow — AI pracuje paraleln
 
 **Žádné guardraily v promptu.** Zodpovědnost je na tobě.
 
-I v God Mode platí:
-- Vždy review, vždy testy, vždy rollback path
-- Nikdy neodevzdáš kód, kterému nerozumíš
-- AI disclosure v každém PR
+I v God Mode platí všechna pravidla z [AI Policy](ai-policy.md) — vždy review, vždy testy, vždy rollback path.
 
-> **⚠️ Bezpečnost:** Nikdy do AI promptu nevkládej API klíče, tokeny, hesla ani connection stringy. Konverzace s AI mohou být logovány. Pokud tvůj kód obsahuje secrets, odstraň je před vložením.
+

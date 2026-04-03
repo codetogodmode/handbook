@@ -2,6 +2,8 @@
 
 ## Přehled
 
+Každá vrstva (Layer) trvá několik týdnů. S každou vrstvou odemykáš nový AI režim.
+
 ```
 Session 0        Layer 1          Layer 2          Layer 3          Layer 4          Layer 5
 Intro            Console & Git    OOP & Quality    Data & API       Frontend         Ship It

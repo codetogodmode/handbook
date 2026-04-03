@@ -18,7 +18,7 @@ Po instalaci napiš Martinovi své **GitHub uživatelské jméno** (to z URL: gi
 
 ## Krok 3: Ověř prostředí
 
-Otevři terminál (ve VS Code: Ctrl+`) a ověř:
+Otevři terminál (ve VS Code: Ctrl+`). Terminál je textové okno, kde píšeš příkazy místo klikání — klávesu `` ` `` najdeš vlevo od 1 na klávesnici. Ověř:
 
 ```bash
 dotnet --version
@@ -40,10 +40,10 @@ git --version
 
 ## Krok 5: První session (Session 0)
 
-První session je Session 0 — intro bez kódování. Potkáme se na Discordu v Session Room. Martin představí program, projdeme pravidla a uvidíte live demo (VS Code, terminál, Git, GitHub). Vy sledujete, ptáte se, kódovat se ještě nebude.
+První session je Session 0 — intro bez kódování. Potkáme se na Discordu v Session Room. Martin představí program, projdeme pravidla, seznámíme se a společně ověříme prostředí. Vy se ptáte, kódovat se ještě nebude.
 
-Přijď s hotovými prerekvizitami (kroky 1-4). Na Session 0 společně ověříme, že máš všechno nainstalované a funkční.
+Přijď s hotovými prerekvizitami (kroky 1-4). Na Session 0 společně ověříme, že máš všechno nainstalované a funkční. Pokud se zasekneš na instalaci, nevadí — projdeme to spolu.
 
-První kódování přijde na řadu v Session 1 (Layer 1), kde si vytvoříš svůj první projekt, napíšeš první program a uděláš první commit a pull request.
+První kódování přijde na řadu v Session 1 (Layer 1), kde si naklonuješ svůj repo, napíšeš první program a pushneš první commit na GitHub.
 
 Neboj se ptát. Nikdo tu nezačínal jako expert.

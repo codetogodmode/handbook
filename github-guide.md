@@ -10,7 +10,7 @@ Organizace má několik typů repozitářů:
 - **sandbox-{jméno}-*** — tvůj osobní sandbox pro experimenty a PoC (vytvoříš si sám přes bota)
 - **capstone-{jméno}-*** — tvůj hlavní projekt (od Layer 3 dál, vytváří Martin)
 - **challenge-{jméno}-*** — gate challenge zadání (vytváří Martin)
-- **shared-*** — společné projekty, na kterých pracujeme všichni (Layer 1-2)
+- **shared-*** — společné projekty, na kterých pracujeme všichni (Layer 2)
 - **demo-*** — ukázkový kód ze sessions
 - **template-*** — startovní šablony, ze kterých se tvoří nové projekty
 - **handbook** — pravidla, dokumenty, návody (tohle čteš právě teď)
@@ -37,9 +37,11 @@ git clone https://github.com/codetogodmode/NAZEV-REPA.git
 cd NAZEV-REPA
 ```
 
-### 2. Vytvoř branch
+### 2. Vytvoř branch (od Layer 2)
 
-Nikdy nepracuj přímo na `main`. Vždy si vytvoř branch:
+> **V Layer 1** pushneš rovnou na main — to je OK, učíš se základy Gitu. Branching a pull requesty přijdou na řadu v Layer 2, když začneš pracovat na sdíleném projektu s ostatními.
+
+Branch je tvoje vlastní kopie kódu, kde můžeš dělat změny, aniž bys ohrozil hlavní verzi (main).
 
 ```bash
 git checkout -b feature/popis-co-delas
@@ -132,7 +134,7 @@ Issues jsou úkoly — co je potřeba udělat.
 
 ## Co NEDĚLAT
 
-- **Nepushuj na main** — vždy přes branch + PR
+- **Nepushuj na main** (od Layer 2) — přes branch + PR. V Layer 1 na main pushneš přímo, to je v pořádku.
 - **Nepoužívej force push** (`git push --force`) — zničí historii
 - **Necommituj secrets** — API klíče, hesla, tokeny. Viz [Secrets Guide](secrets-guide.md)
 - **Necommituj bez popisu** — `git commit -m "stuff"` je k ničemu

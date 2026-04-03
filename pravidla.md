@@ -2,7 +2,7 @@
 
 ## Jak fungujeme
 
-Nejsme škola. Jsme malý dev tým. Martin je tech lead, Matěj asistent, vy jste memberové týmu. Pracujeme s issues, branches, pull requesty a code review — přesně tak, jak funguje skutečný softwarový tým.
+Nejsme škola. Jsme malý dev tým. Martin je tech lead, Matěj asistent, vy jste memberové týmu. Pracujeme s issues (úkoly), branches (vlastní kopie kódu), pull requesty (žádost o prověření kódu) a code review (vzájemná kontrola) — přesně tak, jak funguje skutečný softwarový tým. Tohle všechno se naučíte postupně, ne najednou.
 
 ## 5 pravidel
 
@@ -24,7 +24,7 @@ Každý má odemčenou určitou úroveň AI asistence. Používej jen to, co má
 
 ### 5. Každý týden výstup
 
-Nemusí být velký. Může to být opravený bug, nový test, kus refactoru, nebo i jen kvalitní otázka v #help. Ale něco musí existovat — bez pohybu se neučíš.
+Nemusí být velký. Může to být opravený bug, nový test, kus vylepšení existujícího kódu (refactoring), nebo i jen kvalitní otázka v #help. Ale něco musí existovat — bez pohybu se neučíš.
 
 ## Nahrávání sessions
 

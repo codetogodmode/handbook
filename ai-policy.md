@@ -22,7 +22,7 @@ Každý režim se odemyká individuálně na základě toho, co umíš — ne po
 
 **Nesmíš:** Nechat AI implementovat celý úkol.
 
-**Gate:** Umíš přečíst stack trace, opravit bug debuggerem, udělat PR.
+**Gate:** Umíš přečíst stack trace, opravit bug debuggerem, vysvětlit co jsi udělal.
 
 ### Režim 2 — PAIR
 
@@ -50,7 +50,9 @@ Každý režim se odemyká individuálně na základě toho, co umíš — ne po
 
 ## Jak se odemykají gates
 
-Martin ti zadá challenge — buď jako PR s problémem k vyřešení (nižší gates), nebo jako live 1:1 drilling session (vyšší gates). Nejde o test — jde o ověření, že jsi ready na další úroveň.
+Martin ti zadá challenge — buď jako kód s bugem k opravení (nižší gates), nebo jako live 1:1 drilling session (vyšší gates). Nejde o test — jde o ověření, že jsi ready na další úroveň.
+
+Nemusíš to teď umět. Každou dovednost z gate kritérií se nejdřív naučíš na sessions — gate jen ověří, že to sedí.
 
 ## AI disclosure v pull requestech
 
