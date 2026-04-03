@@ -28,10 +28,21 @@ Celkem: ~17 týdnů + 1 intro session (~4.5 měsíce) při 2 sessions/týden.
 
 C# základy, Git od prvního dne, debugging.
 
-- Typy, proměnné, enum, podmínky, cykly
-- Metody, kolekce, stringy
-- Git: clone, commit, push (branching se učí v Layer 2)
-- Debugging: breakpointy, watch, stack trace
+| Co se naučíš | Detaily |
+|-------------|---------|
+| Terminál | `cd`, `ls`, `mkdir` — orientace v příkazové řádce |
+| Hello World | Program.cs, `dotnet run` — první program |
+| Proměnné a typy | `int`, `string`, `bool`, `double` — jak data vypadají |
+| Enum | Pojmenované konstanty — místo magic numbers |
+| Console I/O | `ReadLine`, `WriteLine` — vstup a výstup |
+| Podmínky | `if/else`, `switch` — program se rozhoduje |
+| Cykly | `for`, `while`, `foreach` — opakování |
+| Metody | Parametry, návratové hodnoty — rozděl kód na kousky |
+| Kolekce | `List<T>`, `Dictionary<K,V>` — pracuj se skupinou dat |
+| String operace | Interpolace, formátování — text v programu |
+| Git | clone, add, commit, push, status, log, diff |
+| Debugging | Breakpointy, watch, stack trace — najdi co je špatně |
+
 - **Výstup:** Funkční konzolová appka pushnutá na GitHub
 - **AI režim:** EXPLAIN
 
@@ -39,10 +50,20 @@ C# základy, Git od prvního dne, debugging.
 
 Třídy, testy, refactoring. OOP jako řešení bolesti, ne jako teorie.
 
-- Třídy, objekty, interface, composition
-- Git: branching, PR, code review (na shared projektu)
-- Unit testy (xUnit)
-- Refactoring — "kód smrdí, opravíme ho"
+| Co se naučíš | Detaily |
+|-------------|---------|
+| Třídy a objekty | Fields, konstruktor, metody — organizuj kód smysluplně |
+| Properties | Get/set, auto-properties — kontrolovaný přístup k datům |
+| Encapsulation | Private/public — schovej co nemá být vidět |
+| Composition | Objekt obsahuje objekty — skládej stavební bloky |
+| Interface | Kontrakty — "slibuju že umím toto" |
+| Git: branching | Branch, checkout, merge — pracuj na vlastní kopii |
+| Git: PR + review | Pull Request — code review od kolegů |
+| Unit testing | xUnit, Arrange/Act/Assert — ověř že kód dělá co má |
+| Code smells | Duplikace, god class — poznáš když kód smrdí |
+| Refactoring | Extract method/class — oprav co smrdí |
+| Separation of concerns | UI vs logika — každá část dělá jednu věc |
+
 - **Výstup:** Domain model s testy, sdílený projekt s PR workflow
 - **AI režim:** EXPLAIN → drilling na HELPER
 
@@ -50,10 +71,20 @@ Třídy, testy, refactoring. OOP jako řešení bolesti, ne jako teorie.
 
 Backend, databáze, architektura. Capstone projekty se rozjíždí.
 
-- EF Core, SQLite, LINQ, generics
-- async/await
-- HTTP, REST, ASP.NET Core (controller-based API)
-- Dependency Injection, separation of concerns
+| Co se naučíš | Detaily |
+|-------------|---------|
+| SQL základy | SELECT, INSERT, WHERE — jak databáze funguje |
+| EF Core + SQLite | DbContext, entity, migrace — C# mluví s databází |
+| Generics | `<T>` — piš kód který funguje s jakýmkoliv typem |
+| Lambda výrazy | `=>` syntax — zkrácený zápis pro metody |
+| LINQ | Where, Select, OrderBy — dotazy nad kolekcemi |
+| async/await | Task, async metody — neblokuj program |
+| HTTP | Verby, status kódy, JSON — jak web komunikuje |
+| Controller API | ASP.NET Core — tvůj backend odpovídá na requesty |
+| REST | Resource URLs, CRUD — konvence pro API design |
+| Service layer | Interface + implementace — čistá architektura |
+| Dependency Injection | Registrace, constructor injection — flexibilní propojení |
+
 - **Výstup:** Backend API s databází — capstone projekty startují
 - **AI režim:** HELPER → drilling na PAIR
 
@@ -61,9 +92,19 @@ Backend, databáze, architektura. Capstone projekty se rozjíždí.
 
 UI pro tvou appku.
 
-- React + Vite + TypeScript + Tailwind CSS
-- Komponenty, props, state, formuláře
-- Fetch dat z API, CRUD UI
+| Co se naučíš | Detaily |
+|-------------|---------|
+| HTML/CSS | Základy webových stránek — struktura a styling |
+| TypeScript | Typovaný JavaScript — syntaxí podobný C# |
+| React + Vite | Komponenty, JSX — moderní frontend framework |
+| Props a State | Předávání dat, `useState` — dynamické UI |
+| useEffect | Lifecycle, side effects — načítání dat |
+| Fetch z API | Napojení na tvůj backend — reálná data v UI |
+| Formuláře | Controlled components — uživatel zadává data |
+| CRUD UI | Create, edit, delete — kompletní operace v prohlížeči |
+| Routing | React Router — více stránek v jedné appce |
+| Tailwind CSS | Utility-first styling — rychlý a konzistentní design |
+
 - **Výstup:** Fungující full-stack appka
 - **AI režim:** PAIR → drilling na BUILDER
 - **Tempo:** Delší rozestupy mezi sessions — frontend je nová doména, procvičení mezi sessions je klíčové
@@ -72,10 +113,15 @@ UI pro tvou appku.
 
 Tvoje appka živá na internetu.
 
-- Docker, docker-compose
-- PostgreSQL (přechod ze SQLite — jeden řádek konfigurace!)
-- CI/CD: GitHub Actions → deploy
-- Deployment na Fly.io
+| Co se naučíš | Detaily |
+|-------------|---------|
+| Docker | Image, container, Dockerfile — zabal appku |
+| docker-compose | Multi-container setup — API + DB + frontend spolu |
+| PostgreSQL | Přechod ze SQLite — jeden řádek konfigurace! |
+| Environment variables | Secrets management — bezpečná konfigurace |
+| GitHub Actions | CI/CD pipeline — automatický build a test |
+| Deployment | Fly.io — tvoje appka na vlastní URL |
+
 - **Výstup:** Appka na vlastní URL
 - **AI režim:** BUILDER → drilling na GOD MODE
 
