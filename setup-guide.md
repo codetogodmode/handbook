@@ -18,7 +18,11 @@ Po instalaci napiš Martinovi své **GitHub uživatelské jméno** (to z URL: gi
 
 ## Krok 3: Ověř prostředí
 
-Otevři terminál (ve VS Code: Ctrl+`). Terminál je textové okno, kde píšeš příkazy místo klikání — klávesu `` ` `` najdeš vlevo od 1 na klávesnici. Ověř:
+Otevři terminál ve VS Code — to je textové okno, kde píšeš příkazy místo klikání:
+- **Klávesnice:** `Ctrl+středník` (na české klávesnici) nebo `Ctrl+backtick` (na anglické)
+- **Přes menu:** nahoře klikni na **Terminal → New Terminal**
+
+Ověř:
 
 ```bash
 dotnet --version
@@ -27,6 +31,30 @@ dotnet --version
 git --version
 # Mělo by zobrazit číslo verze
 ```
+
+## VS Code — jak spouštět a debugovat
+
+### Theme
+Doporučujeme **Dark Modern** — přepneš přes `Ctrl+K` a pak `Ctrl+T`, nebo nahoře **File → Preferences → Color Theme**.
+
+### Spuštění programu
+Máš dvě možnosti:
+- **Tlačítko ▶ vpravo nahoře** v editoru → vyber **Run** — nejrychlejší způsob
+- **V terminálu:** `dotnet run --project src/NazevProjektu`
+
+### Debug (hledání chyb)
+Debug ti umožní zastavit program na libovolném řádku a podívat se na hodnoty proměnných:
+
+1. **Nastav breakpoint** — klikni na číslo řádku vlevo od kódu. Objeví se červená tečka.
+2. **Spusť v debug režimu** — klikni na ▶ vpravo nahoře → vyber **Debug** (ne Run). Nebo stiskni **F5**.
+3. **Program se zastaví** na breakpointu. Vlevo uvidíš panel s hodnotami proměnných.
+4. **Krokování:**
+   - **F10** — další řádek (přeskočí dovnitř metody)
+   - **F11** — vstup do metody
+   - **F5** — pokračuj až do dalšího breakpointu
+5. **Watch** — v debug panelu vlevo můžeš přidat výrazy, které chceš sledovat
+
+Debug se naučíš na sessions — tady je to jen pro přehled.
 
 ## Krok 4: Přečti si pravidla
 
